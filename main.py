@@ -42,7 +42,7 @@ for i in range(1, Nb_dates):
 # Correlation & Beta (if other data set is provided)
 a = input("Comparing Multiple Data Sets? (Yes/No): ")
 if a == "Yes":
-    df2 = http://pd.read_excel(r'C:\Users\tchoukroun\Documents\Backtest and Metrics - Call Ossiam SPX.xlsx', sheet_name='PYTHON 2')
+    df2 = http://pd.read_excel('Enter Sheet Name here', sheet_name='PYTHON 2')
     Dates2 = df2['Date'].tolist()
     Prices2 = df2['Price'].tolist()
     Nb_dates2 = len(Prices2)
